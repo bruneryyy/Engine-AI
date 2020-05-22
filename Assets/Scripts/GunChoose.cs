@@ -2,17 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class GunChoose : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
+    public GameObject[] listaArmas;
+    int armaAtual;
+
+    void Update() {
+        if (Input.GetMouseButtonDown(1)) {
+            Trocar();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    void Trocar() {
+        armaAtual = (armaAtual + 1) % listaArmas.Length;
+
+        for (int i = 0; i < listaArmas.Length; i++) {
+            if (i != armaAtual) {
+                listaArmas[i].SetActive(false);
+            } else {
+                listaArmas[i].SetActive(true);
+            }
+        }
     }
 }

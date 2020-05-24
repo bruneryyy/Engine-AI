@@ -3204,7 +3204,7 @@ MonoBehaviour:
   - {fileID: 2116044345}
   - {fileID: 765143959}
   - {fileID: 714138279}
-  - {fileID: 1829446153}
+  - {fileID: 0}
   - {fileID: 1248651908}
   - {fileID: 583320078}
   - {fileID: 917328965}
@@ -5373,12 +5373,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00a1229f10e9c6149ac5df04dcaff904, type: 3}
---- !u!1 &1829446153 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3043337148371093786, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
-    type: 3}
-  m_PrefabInstance: {fileID: 383267913617510123}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1856369832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6542,6 +6536,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: arma 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2705256620408614526, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3043337148371093786, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
         type: 3}
       propertyPath: m_Name
@@ -6552,16 +6551,44 @@ PrefabInstance:
       propertyPath: m_Name
       value: arma 6
       objectReference: {fileID: 0}
+    - target: {fileID: 6022830939215304123, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
+        type: 3}
+      propertyPath: automatico
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6022830939215304123, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
+        type: 3}
+      propertyPath: projetil
+      value: 
+      objectReference: {fileID: 5326215458178186623, guid: 81a660f79a61ed249a90f5f9431efcb1,
+        type: 3}
+    - target: {fileID: 6066862400624543827, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
+        type: 3}
+      propertyPath: projetil
+      value: 
+      objectReference: {fileID: 5326215458178186623, guid: 81a660f79a61ed249a90f5f9431efcb1,
+        type: 3}
     - target: {fileID: 6750459744765856215, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
         type: 3}
       propertyPath: m_Name
       value: arma 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6750459744765856215, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6967039640249341565, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
         type: 3}
       propertyPath: m_Name
       value: arminhas
       objectReference: {fileID: 0}
+    - target: {fileID: 7092546464291217767, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
+        type: 3}
+      propertyPath: projetil
+      value: 
+      objectReference: {fileID: 5326215458178186623, guid: 02c4b6ea1e805c747a8557831900930d,
+        type: 3}
     - target: {fileID: 7918310043411443228, guid: c95fcbe9e6b0d8842b95b805ff54ea2f,
         type: 3}
       propertyPath: m_Name

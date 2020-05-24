@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FirstPersonWalker : MonoBehaviour
+public class walk : MonoBehaviour
 {
     public Vector2 intensidadeRotacao;
     public float vel, deslocamentoAltura;

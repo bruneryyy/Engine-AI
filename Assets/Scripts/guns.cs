@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GunChoose : MonoBehaviour
+public class guns : MonoBehaviour
 {
     public GameObject[] listaArmas;
     int armaAtual;
